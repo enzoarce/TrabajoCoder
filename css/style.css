@@ -6,26 +6,12 @@
     box-sizing: border-box;
 }
 
-nav {
-    width: 60%;
-}
-
-nav ul {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 52px;
-}
-
-nav ul li {
-    list-style: none;
-    display: inline-block;
-}
-
 nav ul li a {
     font-family: 'Bebas Neue', cursive;
+}
+
+#fontsize {
     font-size: 30px;
-    color: #FFFFFF;
-    text-decoration: none;
 }
 
 h1,
@@ -58,7 +44,7 @@ section article p {
 section p {
     background: none;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
     padding: 10px;
 }
@@ -100,21 +86,19 @@ footer {
 }
 
 .img-logo {
-    width: 355px;
-    text-align: center;
+    width: 300px;
 }
 
 .div-img {
     margin-bottom: 20px;
 }
 
-.flex-logo-nav {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
+.carrusel {
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
-.hover--white :hover {
+.hover-beige :hover {
     color: #e8d3b9;
 }
 
@@ -175,28 +159,15 @@ footer {
 }
 
 .img-cover {
+    width: 80%;
     border: solid 2px #FFFFFF;
     border-radius: 20px;
-    width: 70%;
-    height: auto;
-}
-
-.flex-container-cover {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 150px;
-    width: 100%;
+    margin-bottom: 50px;
 }
 
 .flex-container {
     display: flex;
     justify-content: space-around;
-}
-
-.img-black {
-    width: 90%;
-    height: auto;
-    margin-bottom: 30px;
 }
 
 .img-cover-music {
@@ -252,9 +223,11 @@ footer {
 
 form {
     width: 400px;
-    padding: 30px;
-    margin-top: 30px;
-    margin-left: 35%;
+}
+
+.div-form {
+    margin-top: 90px;
+    margin-bottom: 100px;
 }
 
 .controls {
@@ -267,84 +240,19 @@ form {
     color: #FFFFFF;
 }
 
-form .botons {
+.botons {
     background: none;
-    border: solid #e8d3b9 1px;
-    border-radius: 2px;
-    width: 100px;
-    height: 25px;
     margin-right: 10px;
-    color: #FFFFFF;
-}
-
-.header-container {
-    display: grid;
-    grid-template-columns: 100px, 300px 300px;
-    grid-template-areas: "grid-header-text grid-header-text grid-header-text" 
-                         "grid-logo grid-nav grid-nav";
-}
-
-.grid-header-text {
-    grid-area: grid-header-text;
-}
-
-.grid-logo {
-    grid-area: grid-logo;
-}
-
-.grid-nav {
-    grid-area: grid-nav;
-}
-
-.grid-container-cover {
-    text-align: center;
-    display: grid;
-    grid-template-areas:"cover1 cover2 cover3";
-}
-
-.grid-cover1 {
-    grid-area: cover1;
-}
-
-.grid-cover2 {
-    grid-area: cover2;
-}
-
-.grid-cover3 {
-    grid-area: cover3;
-}
-
-.grid-container-main {
-    display: grid;
-    grid-template-columns: repeat(1fr 1fr);
-    grid-template-rows: auto;
-    grid-template-areas: "billie article" "big big" "article2 finneas";
-}
-
-.grid-article {
-    grid-area: article;
-}
-
-.grid-img-main {
-    grid-area: billie;
-}
-
-.grid-img-big {
-    grid-area: big;
-}
-
-.grid-article2 {
-    grid-area: article2;
-}
-
-.grid-img-2 {
-    grid-area: finneas;
+    margin-top: 15px;
+    display: inline-block;
 }
 
 @media (max-width:768px) {
-    .grid-container-cover {
-        grid-template-areas: "cover1" "cover2" "cover3";
+
+    .header-text {
+        font-size: 12px;
     }
+
     .img-cover {
         width: 50%;
     }
@@ -355,19 +263,14 @@ form .botons {
         text-align: left;
     }
 
-    form {
-        margin: 0;
+    .div-form {
+        margin-top: 50px;
     }
 
     section h1 {
         font-size: 30px;
     }
     
-    .header-container {
-        grid-template-areas: "grid-header-text grid-header-text grid-header-text"
-                             "grid-logo grid-logo grid-logo"
-                             "grid-nav grid.nav grid-nav";
-    }
 
     h3 {
         font-size: 30px;
@@ -376,15 +279,13 @@ form .botons {
     }
 
     .text--big {
-        font-size: 70px;
+        font-size: 60px;
+        padding: 0%;
+        margin-bottom: 25px;
     }
 
     .div-logo {
         width: 100%;
-    }
-
-    .grid-container-main {
-        grid-template-areas: "article article" "big big";
     }
 
     h2 {
@@ -397,10 +298,9 @@ form .botons {
     }
     .article-bio {
         width: 100%;
-    }
-
-    .grid-img2 {
-        width: 10px;
+        padding: 0%;
+        margin: 0%;
+        text-align: center;
     }
 
     .img-main {
@@ -410,4 +310,18 @@ form .botons {
     .img-finneas {
         width: 0;
     }
+
+    .img-social {
+        width: 30px;
+    }
+
+    .img-cover-music {
+        margin-bottom: 100px;
+        margin-top: 20px;
+    }
+
+    footer {
+        margin-top: 0%;
+    }
+
 }
