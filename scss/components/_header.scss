@@ -1,0 +1,39 @@
+#fontsize {
+    font-size: 30px;
+}
+
+.hover-beige :hover {
+    color: $colorbeige;
+}
+
+.header-text {
+    color: $colorwhite;
+    font-family: $fontmain;
+    text-align: center;
+    padding-top: 3px;
+    margin: 0%;
+    height: 18px;
+}
+
+.img-logo {
+    width: 350px;
+}
+
+nav ul li a {
+    font-family: $fontmain;
+}
+
+#scale:hover {
+    transform: scale(1.08);
+}
+
+.div-mt {
+    margin-top: 40px;
+}
+
+.div-mr {
+    margin-left: 70px;
+}
+
+
+

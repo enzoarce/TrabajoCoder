@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.backgroung--black {
+    background-color: #000000;
+}
+
+.text--white {
+    color: #FFFFFF;
+}
+
+.text--black {
+    color: #000000;
+}
+
+.text--justify {
+    text-align: justify;
+}
+
+.text--center {
+    text-align: center;
+}
+
+.text--end {
+    text-align: end;
+}
+
+.text--start {
+    text-align: start;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.text--big {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 100px;
+    text-align: end;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding-right: 60px;
+}
