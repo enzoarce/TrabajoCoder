@@ -5,8 +5,6 @@
 }
 
 h3 {
-    font-size: 45px;
-    text-align: start;
+    @include font (45px, start, $fontsecundary);
     padding-left: 13%;
-    font-family: 'Anton', sans-serif;
 }

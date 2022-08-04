@@ -1,5 +1,5 @@
 .img-cover {
-    width: 80%;
+    @include wh (80%, auto);
     border: solid 2px $colorwhite;
     border-radius: 20px;
     margin-bottom: 50px;

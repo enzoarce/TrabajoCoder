@@ -1,5 +1,8 @@
 //utilities
 @import 'utilities/vars';
+@import 'utilities/mixins';
+@import 'utilities/extends';
+@import 'utilities/maps';
 
 //base
 @import 'base/reset';
@@ -13,6 +16,3 @@
 @import 'components/contacto';
 @import 'components/footer';
 @import 'components/mediasqueries';
-
-
-

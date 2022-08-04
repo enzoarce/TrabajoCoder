@@ -1,0 +1,16 @@
+@mixin font ($size, $aling, $font){
+    font-size: $size;
+    text-align: $aling;
+    font-family: $font;
+}
+
+@mixin wh ($width, $height){
+    width: $width;
+    height: $height;
+}
+
+@mixin responsive($medias) {
+    @media screen and (max-width: map-get($media, $medias)) {
+        @content;
+    }
+}

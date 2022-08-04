@@ -5,6 +5,5 @@ footer {
 
 .img-social {
     display: inline;
-    width: 35px;
-    height: auto;
+    @include wh (35px, auto);
 }
