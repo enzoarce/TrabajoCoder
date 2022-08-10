@@ -22,6 +22,10 @@
         font-size: 25px;
     }
 
+    .div-mt {
+        margin-top: 10px;
+    }
+
     .img-cover {
         width: 50%;
     }
@@ -41,12 +45,6 @@
 
     h3 {
         font-size: 30px;
-    }
-
-    .text--big {
-        font-size: 50px;
-        padding-right: 0%;
-        margin-bottom: 25px;
     }
 
     .div-logo {
@@ -85,13 +83,12 @@
 
     .img-cover-music {
         margin-bottom: 100px;
-        margin-top: 20px;
+        margin-top: 5px;
     }
 
     footer {
         margin-top: 0%;
     }
-
 }
 
 @include responsive('1060') {
@@ -100,7 +97,7 @@
     }
 
     .text--big {
-        font-size: 90px;
+        font-size: 65px;
         padding-right: 50px;
     }
 }
@@ -187,3 +184,4 @@
         width: 0px;
     }
 }
+
