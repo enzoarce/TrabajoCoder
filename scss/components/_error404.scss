@@ -1,0 +1,35 @@
+.bg-error {
+    background: $colorblack;
+    @include wh (100%, 100vh);
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.text-error {
+    @include font (2em, center, $fontmain);
+    color: $colorwhite;
+}
+
+.div-error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-error {
+    @include wh (50%, auto);
+    margin: 20px;
+    text-align: center;
+    border: solid 2px $colorwhite;
+}
+
+.a-error {
+    width: 120px;
+    display: block;
+    font-family: $fontsecundary;
+    background-color: $colorwhite;
+    border-radius: 10px;
+    text-align: center;
+    color: $colorblack;
+    margin-top: 20px;
+}

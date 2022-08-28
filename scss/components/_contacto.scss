@@ -19,5 +19,14 @@ form {
     margin-right: 10px;
     margin-top: 15px;
     display: inline-block;
+    color: $colorwhite;
+    border: 1px solid $colorwhite;
+    border-radius: 5px;
+    margin-left: 2px;
+    padding: 5px;
 }
 
+.botons:hover {
+    background-color: #808B96;
+    color: $colorwhite;
+}
