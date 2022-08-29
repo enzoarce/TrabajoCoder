@@ -1,5 +1,5 @@
 section p {
-    @include font (15px, center, $fontp);
+    @include font (17px, center, $fontp);
     background: none;
     line-height: 30px;
     padding: 10px;
@@ -11,7 +11,7 @@ form {
 
 .div-form {
     margin-top: 90px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 .botons {
