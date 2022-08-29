@@ -215,8 +215,8 @@ section p {
   text-align: center;
   font-family: "Roboto", sans-serif;
   background: none;
-  line-height: 30px;
-  padding: 10px; }
+  line-height: 20px;
+  padding: 15px; }
 
 form {
   width: 400px; }
@@ -292,7 +292,8 @@ footer {
   .img-cover {
     width: 70%; }
   section p {
-    font-size: 15px; }
+    font-size: 15px;
+    text-align: justify; }
   .div-form {
     margin-top: 50px; }
   section h1 {
